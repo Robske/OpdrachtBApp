@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">My Room</string>
+  <string name="action_settings">Settings</string>
+  <string name="standardIP">192.168.178.227</string>
+  <string name="connectedStatus">STATUS</string>
+  <string name ="doorOpen">Door status:</string>
+  <string name ="doorStatus">-</string>
+</resources>

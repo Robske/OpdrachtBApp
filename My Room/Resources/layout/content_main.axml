@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f424242">
+<!--app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"-->
+<!--Row-->
+    <EditText
+        android:text="@string/standardIP"
+        android:layout_width="175dp"
+        android:layout_height="45dp"
+        android:gravity="center_vertical|center"
+        android:id="@+id/editTextIP"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffffff" />
+    <Button
+        android:text="Connect"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/editTextIP"
+        android:id="@+id/buttonConnect"
+        android:layout_marginTop="60dp"
+        android:shadowColor="#ffffffff" />
+    <TextView
+        android:text="@string/connectedStatus"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/buttonConnect"
+        android:gravity="center_vertical|center"
+        android:id="@+id/textViewConnectedStatus"
+        android:textColor="#ff0000"
+        android:layout_marginTop="60dp" />
+<!--Row-->
+    <TextView
+        android:text="@string/doorOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/editTextIP"
+        android:gravity="center_vertical|center"
+        android:id="@+id/textViewDoorOpen"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffffff" />
+    <TextView
+        android:text="@string/doorStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/editTextIP"
+        android:layout_toRightOf="@id/textViewDoorOpen"
+        android:gravity="center_vertical|center"
+        android:id="@+id/textViewDoorStatus"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp" />
+</RelativeLayout>
